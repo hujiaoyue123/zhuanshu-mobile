@@ -1,0 +1,94 @@
+header{
+    background: #e4393c url(i/head01.png) no-repeat;
+    background-size: 100% auto;
+    height: 1.6rem;;
+}
+.header-tip{
+    background: url(i/head02.png) no-repeat;
+    background-size: 100% auto;
+    height:1.07rem;
+    border-top: 2px dashed #E4393C;
+    font-size: 0.24rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.2rem;
+    line-height: 0.3rem;
+}
+.header-tip span{
+    color: #FFFD33;
+}
+section{
+    background: url(i/background.jpg) no-repeat ;
+    background-size: cover;
+    padding: 0 0.3rem 0.3rem 0.3rem ;
+
+}
+.part1{
+    text-align: center;
+    background-color: white;
+    padding: 0.3rem;
+}
+.part1 img{
+    width: 3rem;
+    height: 3rem;
+}
+.part1 p{
+    font-size: 0.21rem;
+    text-align: left;
+    line-height: 0.3rem;
+}
+.price{
+    font-size: 0.6rem;
+    color: #E4393C;
+    margin: 0.32rem 0;
+    text-align: left;
+    line-height: 0.4rem;
+}
+.price img{
+    width: 1.04rem;
+    height: 0.39rem;
+}
+.part1 a{
+    display: block;
+    width: 5.16rem;
+    height: 0.8rem;
+    background-color: #E4393C;
+    border-radius: 0.48rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: white;
+}
+.part2 ul li{
+    color: #962fff;
+    display: inline-block;
+    line-height: 0.54rem;
+}
+.part2 ul{
+    font-size: 0;
+}
+.part2 .li2{
+    margin: 0 0.19rem;
+    font-size: 0.22rem;
+}
+.part2 ul li hr{
+    /*flex:1;*/
+    width: 2.13rem;
+    border: 0.01rem solid #962fff;
+    position: relative;
+    top:-0.08rem;
+}
+.part2 p{
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+}
+.part2 .p1{
+    margin-bottom: 0.2rem;
+}
+.part2 span{
+    color: #962FFF;
+}
+.part2 .p2 {
+    margin-bottom: 1.19rem;
+
+}

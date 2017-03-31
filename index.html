@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">-->
+    <!--<title>专属优惠</title>-->
+    <!--<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">-->
+    <!--&lt;!&ndash;最小最大缩放值minimum-scale user-scalable=no指不允许用户两个手指放大屏幕&ndash;&gt;-->
+    <!--<meta name="format-detection" content="telephone=no">-->
+    <!--&lt;!&ndash; 启用360浏览器的极速模式(webkit) &ndash;&gt;-->
+    <!--<meta name="renderer" content="webkit">-->
+    <!--&lt;!&ndash; 避免IE使用兼容模式 &ndash;&gt;-->
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--&lt;!&ndash; 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 &ndash;&gt;-->
+    <!--<meta name="HandheldFriendly" content="true">-->
+    <!--&lt;!&ndash; 微软的老式浏览器 &ndash;&gt;-->
+    <!--<meta name="MobileOptimized" content="320">-->
+    <!--&lt;!&ndash; uc强制竖屏 &ndash;&gt;-->
+    <!--<meta name="screen-orientation" content="portrait">-->
+    <!--&lt;!&ndash; QQ强制竖屏 &ndash;&gt;-->
+    <!--<meta name="x5-orientation" content="portrait">-->
+    <!--&lt;!&ndash; UC强制全屏 &ndash;&gt;-->
+    <!--&lt;!&ndash;<meta name="full-screen" content="yes">&ndash;&gt;-->
+    <!--&lt;!&ndash; QQ强制全屏 &ndash;&gt;-->
+    <!--<meta name="x5-fullscreen" content="true">-->
+    <!--&lt;!&ndash; windows phone 点击无高光 &ndash;&gt;-->
+    <!--<meta name="msapplication-tap-highlight" content="no">-->
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <!--<meta name="full-screen" content="yes">-->
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $(function () {
+            //自适应基础
+            function initFontSize() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                html.style.fontSize = windowWidth / 6.4 + 'px';
+            }
+
+            initFontSize();
+            $(window).resize(function () {
+                initFontSize();
+            });
+        });
+    </script>
+<body>
+    <header></header>
+    <div class="header-tip">
+        <p>尊敬的用户 <span>陈小活</span></p>
+        <p>我们发现您需要 <span>笔记本电脑</span>，为您带来了专属优惠！</p>
+    </div>
+    <section>
+        <div class="part1">
+            <img src="temp_images/computer.png" alt="">
+            <p>Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/4GB内存/128GB SSD闪存 MJVE2CH/A)</p>
+            <div class="price">
+                <img src="css/i/zhuanshujia.png" alt="">
+                <span>￥6688.00</span>
+            </div>
+            <a href="#">立即加入购物车</a>
+        </div>
+        <div class="part2">
+            <ul>
+                <li><hr></li>
+                <li class="li2">专属价说明</li>
+                <li><hr></li>
+            </ul>
+           <p class="p1"> 1、此价格为您的专属优惠价。商品加入购物车后，<span>购物车内可见优惠价</span>（商品详情页等页面显示原价）。</p>
+           <p class="p2"> 2、<span>专属价有效期最长为5天</span>。活动有效期内仅可购买1次，单次最多购买5件。转发分享无效。</p>
+        </div>
+    </section>
+</body>
+</html>
